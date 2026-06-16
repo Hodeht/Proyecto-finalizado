@@ -1,0 +1,264 @@
+ <!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Iglesias Históricas de León</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+    <!--================ HEADER ================-->
+
+    <header>
+  <img src="/logo.png" alt="Logo León Turístico" class="logo">
+
+
+        <h1> Iglesias Históricas de León</h1>
+
+        <p>
+            Conoce algunas de las iglesias más
+            importantes de la ciudad de León,
+            Nicaragua.
+        </p>
+<button id="tema">
+     Modo Oscuro
+</button>
+    </header>
+
+    <!--================ BUSCADOR ================-->
+
+    <section class="buscador">
+
+        <input
+        type="text"
+        id="buscar"
+        placeholder="Buscar una iglesia...">
+
+    </section>
+
+    <!--================ CATÁLOGO ================-->
+
+    <main id="catalogo">
+        <!--================ TARJETAS ================-->
+
+<div class="tarjeta">
+
+    <img src="/foto1.jpeg" alt="Catedral de León">
+
+    <h2>Catedral de León</h2>
+
+    <p>
+        La Catedral de León nació a raíz del traslado de la ciudad en 1610, 
+        tras la erupción del volcán Momotombo. La edificación actual comenzó en 1747
+         y tardó más de 60 años en terminarse, finalizando en 1814.
+    </p>
+     
+    <button onclick="horario('Catedral de León')">
+        Ver horarios
+    </button>
+
+</div>
+
+
+<div class="tarjeta">
+
+    <img src="/foto2.jpeg" alt="La Recolección">
+
+    <h2>La Recolección</h2>
+
+    <p>
+        Destaca por su hermosa fachada barroca y
+        su gran valor arquitectónico.
+    </p>
+
+    <button onclick="horario('La Recolección')">
+        Ver horarios
+    </button>
+
+</div>
+
+
+<div class="tarjeta">
+
+    <img src="/foto3.jpeg" alt="Sutiaba">
+
+    <h2>Iglesia de Sutiaba</h2>
+
+    <p>
+        Uno de los templos más antiguos de León,
+        con gran importancia histórica y cultural.
+    </p>
+
+    <button onclick="horario('Sutiaba')">
+        Ver horarios
+    </button>
+
+</div>
+<div class="tarjeta">
+
+    <img src="/foto4.jpeg" alt="La Merced">
+
+    <h2>Iglesia La Merced</h2>
+
+    <p>
+        Es una de las iglesias más representativas
+        de la ciudad de León y posee una hermosa
+        arquitectura colonial.
+    </p>
+
+    <button onclick="horario('La Merced')">
+        Ver horarios
+    </button>
+
+</div>
+
+
+<div class="tarjeta">
+
+    <img src="/foto5.jpeg" alt="El Calvario">
+
+    <h2>Iglesia El Calvario</h2>
+
+    <p>
+        Famosa por sus llamativos colores y por ser
+        uno de los templos más visitados por turistas
+        y habitantes de León.
+    </p>
+
+    <button onclick="horario('El Calvario')">
+        Ver horarios
+    </button>
+
+</div>
+
+
+<div class="tarjeta">
+
+    <img src="/foto6.jpeg" alt="San Felipe">
+
+    <h2>Iglesia San Felipe</h2>
+
+    <p>
+        Templo histórico construido durante la época
+        colonial y reconocido por su amplio interior
+        y su importancia religiosa.
+    </p>
+
+    <button onclick="horario('San Felipe')">
+        Ver horarios
+    </button>
+
+</div>
+<div class="tarjeta">
+
+    <img src="/foto7.jpeg" alt="Santuario Nuestra Señora de Guadalupe">
+
+    <h2>Santuario Nuestra Señora de Guadalupe</h2>
+
+    <p>
+    Es un templo de finales del siglo XIX caracterizado
+por su arquitectura colonial sencilla. Funciona como el núcleo histórico del barrio.
+    </p>
+
+    <button onclick="horario('Santuario Nuestra Señora de Guadalupe ')">
+        Ver horarios
+    </button>
+
+</div>
+
+
+<div class="tarjeta">
+
+    <img src="/foto8.jpeg" alt="Iglesia Nuestra Señora de Dolores">
+
+    <h2>Iglesia Nuestra Señora de Dolores</h2>
+
+    <p>
+       Es considerada una escena llena de fe y tradición para la comunidad local,
+        especialmente durante celebraciones como la Semana Santa.
+    </p>
+
+    <button onclick="horario('Nuestra Señora de Dolores')">
+        Ver horarios
+    </button>
+
+</div>
+
+
+<div class="tarjeta">
+
+    <img src="/foto9.jpeg" alt="Iglesia de San Juan Bautista">
+
+    <h2>Iglesia de San Juan Bautista</h2>
+
+    <p>
+        Es uno de los templos religiosos con mayor relevancia histórica del casco colonial de león,
+        Sirvió como el núcleo para el desarrollo del antiguo Barrio de San Juan,
+         un asentamiento habitado inicialmente por indígenas naborías.
+    </p>
+
+    <button onclick="horario('Iglesia de San Juan Bautista')">
+        Ver horarios
+    </button>
+
+</div>
+</main>
+<!--================ FORMULARIO =================-->
+
+<section id="contacto">
+
+    <h2>Contáctanos</h2>
+
+    <form>
+
+        <label for="nombre">Nombre:</label><br>
+        <input
+            type="text"
+            id="nombre"
+            placeholder="Ingrese su nombre"
+            required
+        ><br><br>
+
+        <label for="correo">Correo:</label><br>
+        <input
+            type="email"
+            id="correo"
+            placeholder="Ingrese su correo"
+            required
+        ><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea
+            id="mensaje"
+            rows="5"
+            placeholder="Escriba su mensaje"
+            required
+        ></textarea><br><br>
+
+        <button type="submit">
+            Enviar
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Iglesias Históricas de León</p>
+
+    <p>Todos los derechos reservados.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
