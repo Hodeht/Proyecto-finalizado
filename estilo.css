@@ -13,7 +13,7 @@ body{
 
 
 header{
-    background:linear-gradient(135deg, #5b4636, #a67c52);
+    background:linear-gradient(135deg, #4e342e, #c8a17a);
     color:white;
     text-align:center;
     padding:40px 20px;
@@ -147,7 +147,7 @@ footer p{
 
     margin-top:20px;
     padding:10px 20px;
-    background:#ffffff;
+    background:#daa520;
     color:#2c3e50;
     border:none;
     border-radius:5px;
