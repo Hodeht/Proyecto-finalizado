@@ -1,0 +1,295 @@
+/*=========================
+    ESTILOS GENERALES
+=========================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+/*=========================
+    HEADER
+=========================*/
+
+header{
+    background:linear-gradient(135deg, #5b4636, #a67c52);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+/*=========================
+    BUSCADOR
+=========================*/
+
+.buscador{
+    text-align:center;
+    margin:25px;
+}
+
+#buscar{
+    width:80%;
+    max-width:500px;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}  
+
+
+
+/*=========================
+    CATÁLOGO
+=========================*/
+
+#catalogo{
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+/*=========================
+    TARJETAS
+=========================*/
+
+.tarjeta{
+    background:white;
+    width:300px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    text-align:center;
+    padding-bottom:15px;
+}
+
+.tarjeta img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.tarjeta h2{
+    margin:15px 10px;
+    color:#045eb9;
+}
+
+.tarjeta p{
+    margin:0 15px 15px;
+    font-size:15px;
+}
+
+.tarjeta button{
+    background:#2c3e50;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.tarjeta button:hover{
+    background:#1b2838;
+}
+/*=========================
+    FOOTER
+=========================*/
+
+footer{
+
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+
+}
+
+footer p{
+
+    margin:5px;
+
+}
+
+/*=========================
+    RESPONSIVE
+=========================*/
+
+@media(max-width:768px){
+
+    header h1{
+
+        font-size:30px;
+
+    }
+
+    header p{
+
+        font-size:16px;
+
+    }
+
+    #buscar{
+
+        width:95%;
+
+    }
+
+    .tarjeta{
+
+        width:100%;
+
+    }
+
+}/*=========================
+    BOTÓN MODO OSCURO
+=========================*/
+
+#tema{
+
+    margin-top:20px;
+    padding:10px 20px;
+    background:#ffffff;
+    color:#2c3e50;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+
+#tema:hover{
+
+    background:#dddddd;
+
+}
+
+/*=========================
+    MODO OSCURO
+=========================*/
+
+
+/*=========================
+    MODO OSCURO
+=========================*/
+
+.oscuro{
+    background:#121212;
+    color:#F5F5F5;
+}
+
+.oscuro header{
+    background:linear-gradient(135deg, #3e2c20, #6F4E37);
+}
+
+.oscuro .tarjeta{
+    background:#1E1E1E;
+    color:#F5F5F5;
+}
+
+.oscuro .tarjeta h2{
+    color:#D4A373;
+}
+
+.oscuro .tarjeta button{
+    background:#A67C52;
+}
+
+.oscuro .tarjeta button:hover{
+    background:#8B6B47;
+}
+
+.oscuro footer{
+    background:#1A1A1A;
+}
+
+.oscuro #buscar{
+    background:#2A2A2A;
+    color:white;
+    border:1px solid #A67C52;
+}
+
+.oscuro #contacto{
+    background:#1E1E1E;
+    color:white;
+}
+
+.oscuro #contacto input,
+.oscuro #contacto textarea{
+    background:#2A2A2A;
+    color:white;
+    border:1px solid #A67C52;
+}
+
+/*=========================
+    FORMULARIO
+=========================*/
+
+#contacto{
+
+    width:90%;
+    max-width:600px;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+
+}
+
+#contacto h2{
+
+    text-align:center;
+    margin-bottom:20px;
+
+}
+
+#contacto input,
+#contacto textarea{
+
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+
+}
+
+#contacto button{
+
+    background:#2c3e50;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+
+#contacto button:hover{
+
+    background:#1b2838;
+
+}
+.logo{
+
+    width: 180px;
+    margin-bottom:20px;
+
+}
